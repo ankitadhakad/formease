@@ -6,8 +6,8 @@ import profile_formease from '../images/profile_formease.png'
 export default function Header() 
 {
   return (
-    <header className='shadow-md'>
-        <div className='flex justify-between items-center max-w-6xl mx-auto p-6'>
+    <header className='shadow-md p-6'>
+        <div className='flex justify-between items-center max-w-6xl mx-auto'>
         <img className='h-9 hover:cursor-pointer' src='https://formease.app/images/logo.png'/>
         <div className='text-blue-500 font-semibold hover:underline hover:cursor-pointer'> Home</div>
         <div className='font-semibold hidden md:inline hover:underline hover:cursor-pointer'> Result </div>
