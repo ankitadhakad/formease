@@ -10,7 +10,7 @@ export default function Header()
     <header className='shadow-md p-6'>
         <div className='flex justify-between items-center max-w-6xl mx-auto'>
         <img className='h-9 hover:cursor-pointer' src='https://formease.app/images/logo.png'/>
-       <Link to="/details">
+       <Link to="/">
        <div className='text-blue-500 font-semibold hover:underline hover:cursor-pointer'> Home</div>
        </Link> 
         <div className='font-semibold hidden md:inline hover:underline hover:cursor-pointer'> Result </div>
