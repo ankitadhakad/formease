@@ -14,19 +14,19 @@ export default function Footer() {
           <div className="flex justify-between gap-6">
             <img
               src="https://logodix.com/logo/1238026.png"
-              className="h-5"
+              className="h-5 hidden md:inline"
             />
             <img
               src="https://www.shareicon.net/data/256x256/2016/07/09/118293_instagram_512x512.png"
-              className="h-5"
+              className="h-5 hidden md:inline"
             />
             <img
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7VTxBpzdDqX2TxxMLFwHPTowE4rwwSDIl8tze4f4NC13WvMKne4LoaYhbBoHGiDtes2g&usqp=CAU"
-              className="h-5"
+              className="h-5 hidden md:inline"
             />
             <img
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJV_lhLlDUz1rIeEvDXkNg9VHhS18PsFbsmZ5V6L-tZA&s"
-              className="h-5"
+              className="h-5 hidden md:inline"
             />
           </div>
         </div>

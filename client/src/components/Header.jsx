@@ -3,13 +3,16 @@ import {FaSearch} from 'react-icons/fa';
 import { FaRegBell } from 'react-icons/fa';
 import logo_formease from '../images/logo_formease.png';
 import profile_formease from '../images/profile_formease.png'
+import {Link} from 'react-router-dom'
 export default function Header() 
 {
   return (
     <header className='shadow-md p-6'>
         <div className='flex justify-between items-center max-w-6xl mx-auto'>
         <img className='h-9 hover:cursor-pointer' src='https://formease.app/images/logo.png'/>
-        <div className='text-blue-500 font-semibold hover:underline hover:cursor-pointer'> Home</div>
+       <Link to="/details">
+       <div className='text-blue-500 font-semibold hover:underline hover:cursor-pointer'> Home</div>
+       </Link> 
         <div className='font-semibold hidden md:inline hover:underline hover:cursor-pointer'> Result </div>
         <div className='font-semibold hidden md:inline hover:underline hover:cursor-pointer'>  FAQ </div>
         <div className='font-semibold hidden lg:inline hover:underline hover:cursor-pointer'> About Us</div>

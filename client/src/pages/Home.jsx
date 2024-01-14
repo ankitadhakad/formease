@@ -4,9 +4,10 @@ import { examcard } from "../utils/objects";
 import ExamCard from "../components/ExamCard";
 import { examname } from "../utils/objects";
 import { upperexamcard } from "../utils/objects";
+import { Link } from "react-router-dom";
 export default function Home() {
   return (
-    <div className="bg-slate-100 p-9">
+    <div className="bg-slate-50 p-9">
       <div className="max-w-6xl mx-auto">
         <div>
           <Slider />

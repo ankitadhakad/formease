@@ -33,6 +33,7 @@ export const desc = [
     },
   ];
   export const result = [
+    "https://play-lh.googleusercontent.com/JBwqGcqlkATAfye3IxRtzrcYBiWtV6HxG0TyjZx2hk3DwGz7Vlta9h-LYyKTBwYdCw=w240-h480-rw",
           "https://examwinner.com/wp-content/uploads/2023/12/Esat-JEE-mains-Resuls.jpg.webp",
           "https://img.jagranjosh.com/images/2023/March/1632023/GATE-2023-Result-(1).jpg"
 
